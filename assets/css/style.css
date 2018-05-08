@@ -4,6 +4,7 @@
 .txtSmall { font-size: 8px; }
 .txtWhite { color:#fff; }
 .txtGrey { color:#777; }
+.txtGreen { color:#4aaaa5; }
 .txtBold { font-weight: bold; }
 
 
@@ -17,8 +18,10 @@ body {
   border: white solid 0px;
 }
 
+hr { border-color: #ddd; border-width: 2px; }
+
 #header, #main, #footer { width:100%; margin: 0px auto;}
-#headerContent, #mainContent {width:960px; margin: 0px auto;}
+#headerContent, #mainContentABOUT, #mainContentPORTFOLIO, #mainContentCONTACT {width:960px; margin: 0px auto;}
 
 #header {
   padding:0;
@@ -26,7 +29,7 @@ body {
   height:90px;
   background-color: #ffffff;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  border-bottom: #777 solid 2px;
+  border-bottom: #ccc solid 2px;
 }
 #headerContent {
  height:100%;
@@ -72,6 +75,7 @@ width:270px;
 #nav-smalllinks.small_nav a:hover {
     text-decoration: underline;
 }
+#nav-smalllinks .menu-item_active a, #nav-smalllinks .menu-item a:hover { font-weight: bold; }
 
 #main {
     background-image: url("../images/vintage-concrete.png");
@@ -79,13 +83,30 @@ width:270px;
     border-bottom: #4aaaa5 solid 10px;
     
 }
-#mainContent {
+#mainContentABOUT {
     background-color:#fff;
+    border-bottom: #ccc solid 1px;
+    width: 900px;
+    padding: 30px;
 }
 
-#section_asideWrapper{ 
-  height:300px;
-  margin-bottom: 20px;
+#mainContentABOUT img{
+ border: #ddd solid 2px;
+ margin: 0 10px 10px 0;
+}
+
+#mainContentPORTFOLIO {
+    background-color:#fff;
+    border-bottom: #ccc solid 1px;
+    width: 900px;
+    padding: 30px;
+}
+
+#mainContentCONTACT {
+    background-color:#fff;
+    border-bottom: #ccc solid 1px;
+    width: 900px;
+    padding: 30px;
 }
 
 #footer {
