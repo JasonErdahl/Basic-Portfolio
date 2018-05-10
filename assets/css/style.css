@@ -27,6 +27,7 @@ hr { border-color: #ddd; border-width: 1px; margin-bottom:30px;}
 #header, #main, #footer { width:100%; margin: 0px auto;}
 #headerContent, #mainContentABOUT, #mainContentPORTFOLIO, #mainContentCONTACT {width:960px; margin: 0px auto;}
 
+/* #################  HEADER  ########################## */
 #header {
   padding:0;
   margin:0;
@@ -53,6 +54,7 @@ vertical-align: middle;
 width:270px;
 }
 
+/* #################  HEADER NAVIGATION  ########################## */
 #nav-smalllinks {
     text-transform:none;
     font-size: 18px;
@@ -83,6 +85,7 @@ width:270px;
 #nav-smalllinks .menu-item_active a, #nav-smalllinks .menu-item a:hover { font-weight: bold; letter-spacing: 0.05px; }
 #nav-smalllinks .menu-item_active a { color:#4aaaa5; }
 
+/* #################  MAIN  ########################## */
 #main {
     background-image: url("../images/vintage-concrete.png");
     padding: 40px 0px;
@@ -114,7 +117,7 @@ width:270px;
     width: 550px;
     min-height: 550px;
 }
-}
+
 #portfolioWrapper ul {
     padding: 0;
     margin: 0;
@@ -123,7 +126,6 @@ width:270px;
 #portfolioWrapper ul li {
     width: 215px;
     height: 160px;
-    background-color: red;
     float: left;
     margin: 0 35px 35px 0;
     position: relative;
@@ -134,11 +136,11 @@ width:270px;
     height:45px;
     width:100%;
     background-color:#4aaaa5;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 #portfolioWrapper li p {
     position: relative;
-    top:50%;
+    top:30%;
 }
 
 /* #################  CONTACT  ########################## */
