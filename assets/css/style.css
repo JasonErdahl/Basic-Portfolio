@@ -110,6 +110,37 @@ width:270px;
     padding: 30px;
 }
 
+#portfolioWrapper  {
+    width: 550px;
+    min-height: 550px;
+}
+}
+#portfolioWrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#portfolioWrapper ul li {
+    width: 215px;
+    height: 160px;
+    background-color: red;
+    float: left;
+    margin: 0 35px 35px 0;
+    position: relative;
+}
+#portfolioWrapper li div {
+    position: absolute;
+    bottom:15px;
+    height:45px;
+    width:100%;
+    background-color:#4aaaa5;
+    opacity: 0.8;
+}
+#portfolioWrapper li p {
+    position: relative;
+    top:50%;
+}
+
 /* #################  CONTACT  ########################## */
 #mainContentCONTACT {
     background-color:#fff;
