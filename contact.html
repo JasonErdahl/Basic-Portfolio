@@ -30,13 +30,21 @@
         </div>
     </header>
 
-    <div id="main">
-        <section id="mainContentCONTACT">
+    <section id="main">
+        <div id="mainContentCONTACT">
             <p class="txtLarge txtGreen">Contact</p>
             <hr />
-
-        </section>
-    </div>
+            <form>
+                <fieldset>
+                    <p><label class="field txtMedium txtGrey" for="Name">Name:</label><br /><input type="text" id="name"  class="txtGrey" name="user_name" placeholder="John Smith"></p>
+                    <p><label class="field txtMedium txtGrey" for="Email">Email:</label><br /><input type="text" id="email" class="txtGrey" name="user_email" placeholder="example@gmail.com"></p>
+                    <p><label class="field txtMedium txtGrey" for="Message">Message:</label><br /><textarea name="user_message" form="usrform" class="txtGrey" > </textarea></p>
+                    <p><input id="submit" class="txtWhite txtMedium" type="submit" value="Submit" /></p>
+                                       
+                </fieldset>
+            </form>
+        </div>
+    </section>
 
     <footer id="footer" class="txtCenter txtWhite txtSmall">
        <p>Copyright &copy; 2018</p>
