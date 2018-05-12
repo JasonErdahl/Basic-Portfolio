@@ -1,6 +1,6 @@
 .txtCenter { text-align:center; }
 .txtRight { text-align:right; }
-.txtLarge { font-size: 40px; font-family: 'Georgia', Times, Times New Roman, serif; }
+.txtLarge, h1, h2 { font-size: 40px; font-family: 'Georgia', Times, Times New Roman, serif; }
 .txtMedium { font-size:1.2em; }
 .txtSmall { font-size: 10px; }
 .txtWhite { color:#fff; }
@@ -103,6 +103,8 @@ width:270px;
 #mainContentABOUT img{
  border: #ddd solid 2px;
  margin: 0 25px 25px 0;
+ float:left;
+ width:200px;
 }
 
 /* #################  PORTFOLIO  ########################## */
