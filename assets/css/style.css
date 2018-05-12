@@ -2,7 +2,7 @@
 .txtRight { text-align:right; }
 .txtLarge { font-size: 40px; font-family: 'Georgia', Times, Times New Roman, serif; }
 .txtMedium { font-size:1.2em; }
-.txtSmall { font-size: 8px; }
+.txtSmall { font-size: 10px; }
 .txtWhite { color:#fff; }
 .txtGrey { color:#777; }
 .txtLightGrey { color:#ddd; }
@@ -141,6 +141,12 @@ width:270px;
 #portfolioWrapper li p {
     position: relative;
     top:30%;
+}
+#portfolioWrapper li a {
+    text-decoration: none;
+}
+#portfolioWrapper li a:hover {
+    text-decoration: underline;
 }
 
 /* #################  CONTACT  ########################## */
